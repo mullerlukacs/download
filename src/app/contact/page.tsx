@@ -1,0 +1,3 @@
+import { createMetadata } from "@/lib/seo";
+export const metadata = createMetadata({ title: "Contact Us", description: "Contact the MediaSave Pro team for support and partnerships.", path: "/contact" });
+export default function ContactPage() { return <main className="container py-16"><h1 className="text-5xl font-black">Contact us</h1><form className="card mt-8 max-w-2xl grid gap-4"><input className="input" placeholder="Name" /><input className="input" placeholder="Email" /><textarea className="input min-h-40" placeholder="How can we help?" /><button className="btn" type="button">Send message</button></form></main>; }

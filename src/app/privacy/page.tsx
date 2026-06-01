@@ -1,0 +1,3 @@
+import { createMetadata } from "@/lib/seo";
+export const metadata = createMetadata({ title: "Privacy Policy", description: "MediaSave Pro privacy policy and data practices.", path: "/privacy" });
+export default function PrivacyPage() { return <main className="container py-16 prose prose-invert max-w-4xl"><h1>Privacy Policy</h1><p>MediaSave Pro stores account, analytics, and processing history data required to provide the SaaS service. Configure retention, logging, and subprocessors before launch.</p><h2>Security</h2><p>Input validation, rate limiting, authentication, monitoring, and audit logging are built into the architecture.</p></main>; }
